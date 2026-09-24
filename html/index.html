@@ -1,21 +1,198 @@
+label
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>First Website</title>
-        <meta charset="UTF-8"/>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-        <meta name="description" content="This is my first website for crochet."/>
-        <meta name="author" content="Mayar"/>
-    </head>
-    <body>
-        <h1>Welcome to My Website</h1>
-        <p>This is my first website for crochet. I will be sharing my 
-            crochet projects and tutorials here.</p>
-            <div>
-                <hr/>
-        <p>This is my first website for crochet. I will be sharing my 
-            crochet projects and tutorials here.</p>
-            </div>
- <img src="../public/flower.jpg" alt="Crochet Image"/>
-    </body>
-</html>  
+<html lang="en">
+
+<head>
+    <title>Crochet Website</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>Crochet Website</h1>
+
+        
+            <a href="#">Home</a>
+            <a href="#">Contact</a>
+            <a href="#">About</a>
+       
+
+        <div>
+            <h2>Contact Us</h2>
+
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" placeholder="Name..." id="name">
+                <br>
+
+                <label for="age">Age:</label>
+                <input type="number" placeholder="Age..." id="age">
+                <br>
+
+                <label for="email">Email:</label>
+                <input type="email" placeholder="Email..." id="email">
+                <br>
+
+                <label for="password">Password:</label>
+                <input type="password" placeholder="Password..." id="password">
+                <br>
+
+                <label for="phonenumber">Phone:</label>
+                <input type="tel" placeholder="077XXXXXXX" id="phonenumber">
+                <br>
+
+                <label for="birthdate">Birth Date:</label>
+                <input type="date" id="birthdate">
+                <br>
+
+                <label for="color">Favorite Color:</label>
+                <input type="color" id="color">
+                <br>
+
+                <label for="File">choose file:</label>
+                <input type="file" id="File">
+                <br>
+
+                <label for="gender">Gender:</label>
+                <input type="radio" name="gender" value="male">male
+                <input type="radio" name="gender" value="female">female
+                <br>
+
+                <label for="car">Car:</label>
+                <select name="car" id="car">car
+                    <option selected value="select car">Select car</option>
+                    <option value="volvo">Volvo</option>
+                    <option value="saab">Saab</option>
+                    <option value="mercedes">Mercedes</option>
+                    <option value="audi">Audi</option>
+                </select>
+                <br>
+
+            
+                <label for="skill">select your Skills:</label><br>
+                <input type="checkbox" name="skill1" id="skill1" value="python">
+                <label for="skill1">python</label>
+                
+                <input type="checkbox" name="skill2" id="skill2" value="c#">
+                <label for="skill2">c#</label>
+                <br>
+
+                <input type="submit" value="Submit">
+                <input type="reset" value="Reset">
+
+               
+            </form>
+        </div>
+    </header>
+
+
+    <!-- Main -->
+    <main>
+
+        <section>
+            <h2>About Our Products</h2>
+
+            <img src="../public/logo.jpg" alt="logo image">
+            <img src="../public/bag.jpg" alt="bag image">
+
+            <p>
+                <strong>Khite and Sanara</strong>
+                <em>beautiful and unique crochet items that bring joy to every home.</em>
+            </p>
+
+          </section>
+        <!-- Product Table الجدول العادي بدون اضافات -->
+
+        <section>
+            <table border="1">
+                <tr>
+                    <th>Product</th>
+                    <th>Description</th>
+                    <th>Price</th>
+                </tr>
+                <tr>
+                    <td>Bag</td>
+                    <td>Handmade crochet bag with intricate patterns.</td>
+                    <td>$30</td>
+                </tr>
+                <tr>
+                    <td>Scarf</td>
+                    <td>Soft and warm crochet scarf, perfect for winter.</td>
+                    <td>$20</td>
+                </tr>
+              
+
+            </table>
+
+        </section>
+
+         <!--التصنيف حسب ال columns-->
+        <section>
+            <table border="1">
+                <tr>
+                    <th colspan="2">size Product</th>
+                    <th>Description</th>
+                    <th>Price</th>
+                </tr>
+                <tr>
+                    <td>Big</td>
+                    <td>bag</td>
+                    <td>Handmade crochet bag with intricate patterns.</td>
+                    <td>$30</td>
+                </tr>
+                <tr>
+                    <td>tall</td>
+                    <td>scarf</td>
+                    <td>Soft and warm crochet scarf, perfect for winter.</td>
+                    <td>$20</td>
+                </tr>
+            </section>
+            <br>
+            <br>
+             <!--التصنيف حسب ال rows-->
+            <section>
+                <table border="1">
+                    <tr>
+                        <th>Product</th>
+                        <th>Description</th>
+                        <th rowspan="2">Price</th><!--بصير حجم الصف كانو صفين-->
+                    </tr>
+                    <tr>
+                        <td>Bag</td>
+                        <td>Handmade crochet bag with intricate patterns.</td>
+                        
+                    </tr>
+                    <tr>
+                        <td>Scarf</td>
+                        <td>Soft and warm crochet scarf, perfect for winter.</td>
+                        <td>$30</td>
+                    </tr>
+                </table>
+
+            </section>
+
+    </main>
+
+
+    <!-- Footer -->
+    <footer>
+        <h3>Khite and Sanara</h3>
+
+        <p>
+            This is a handmade products.
+        </p>
+
+        <div>
+            <a href="#">Facebook</a>
+            <a href="#">Instagram</a>
+            <a href="#">Twitter</a>
+        </div>
+    </footer>
+
+</body>
+
+</html>
+
