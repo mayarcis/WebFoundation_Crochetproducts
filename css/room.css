@@ -1,0 +1,46 @@
+.header {
+            background-color: #478b5a;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+.nav {
+            background-color: #c4a50cd5;
+            padding: 15px;
+            text-align: center;
+        }
+
+      
+
+.a {
+            text-decoration: underline;
+        }
+
+.display_rooms{
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    flex-wrap: wrap;
+    justify-self: center;
+
+}
+.card_rooms{
+    border: 1px solid #072610;
+    padding: 10px;
+    border-radius: 10px;
+    width: 18em;
+}
+.title_rooms{
+    color: rgb(12, 29, 212);
+    font-weight: 800;
+    text-align: center;
+    
+}
+.image_rooms{
+    width: 2em;
+    height: 3em;
+
+}
+
+     
