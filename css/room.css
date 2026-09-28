@@ -1,0 +1,137 @@
+
+.header {
+    background-color: #e4620c;
+    color: rgb(143, 63, 63);
+    padding: 10px;
+    text-align: center;
+}
+
+.header a {
+    color: white;
+    text-decoration: none;
+}
+
+.main_title {
+    text-align: center;
+}
+
+.display_rooms {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10px;
+}
+
+.card_rooms {
+    border: 3px solid #072610;
+    padding: 10px;
+    border-radius: 30px;
+    width: 18em;
+    box-shadow: 10px 10px 10px #e4620c;
+    transition: transform 0.4s ease-in-out, box-shadow 0.4s ease;
+}
+
+.card_rooms:hover {
+    box-shadow: 15px 15px 15px #e40cd6;
+    transform: translateY(-10px);
+}
+
+.title_rooms {
+    color: rgb(12, 29, 212);
+    font-weight: 500;
+    text-align: center;
+    padding: 10px;
+}
+
+.image_rooms {
+    text-align: center;
+    padding: 10px;
+}
+
+.image_rooms img {
+    width: 13em;
+    height: 13em;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.card_room_buttons {
+    text-align: center;
+    padding: 10px;
+}
+
+.card_room_view {
+    color: brown;
+    background-color: #e40cd6;
+    width: 7em;
+    height: 3em;
+    padding: 10px;
+    border-radius: 20%;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+.card_room_view:hover {
+    background-color: #e4620c;
+    cursor: pointer;
+    border-bottom: 1px solid #67020aa2;
+}
+
+
+/* Reviews */
+
+.reviews_rooms {
+    margin-top: 50px;
+}
+
+.reviews_title {
+    color: rgba(189, 5, 146, 0.783);
+    text-align: center;
+}
+
+.reviews_cards {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    gap: 20px;
+    padding: 10px;
+    overflow-y: scroll;
+    height: 300px;
+}
+
+.reviews_card {
+    width: 90%;
+    text-align: center;
+    border: 2px dashed #e4620cd5;
+    border-radius: 5%;
+    padding: 15px;
+}
+
+.reviews_card img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.frame_music {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.video_box {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.audio_box {
+    text-align: center;
+    margin-top: 20px;
+}
+
