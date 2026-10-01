@@ -1,0 +1,107 @@
+header nav {
+    background-color: #083868;
+    text-align: center;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+.logo {
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+}
+
+header img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.link {
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    margin: 10px;
+}
+
+.link a:hover {
+    color: #840404;
+}
+
+
+
+.card {
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    
+    
+}
+
+
+
+.car {
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    
+    
+}
+
+
+
+.card img {
+    width: 350px;
+    height: 250px;
+    object-fit: cover;
+}
+
+
+.Mercedes {
+    background-color: #844804;
+    border: 2px solid white;
+    box-shadow: 5px 5px 10px #fff;
+}
+
+.Mercedes:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+    box-shadow: 5px 5px 10px #3209b8;
+}
+
+
+.bmw {
+    background-color: #738ba4;
+    border: 2px solid white;
+    box-shadow: 5px 5px 10px #fff;
+}
+
+.bmw:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+    box-shadow: 5px 5px 10px #3209b8;
+}
+
+
+.ford {
+    background-color: #084B68;
+    border: 2px solid white;
+    box-shadow: 5px 5px 10px #fff;
+}
+
+.ford:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+    box-shadow: 5px 5px 10px #3209b8;
+}
+```
