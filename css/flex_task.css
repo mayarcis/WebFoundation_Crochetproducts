@@ -1,0 +1,30 @@
+header nav{
+    background-color: #083868;
+    text-align: center;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+.logo{
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+}
+header img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    
+}
+.link{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    margin: 10px;
+
+}
