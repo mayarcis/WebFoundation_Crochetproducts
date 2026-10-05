@@ -122,6 +122,8 @@ nav {
     padding: 20px;
     size: 100px;
     background-color: rgba(243, 241, 238, 0.993);
+    padding-left: 60px ;
+    padding-top: 60px ;
     
 }
 
@@ -142,26 +144,17 @@ nav {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.video {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.video video {
+    width:600px;
+    border-radius: 15px;
+    
+}
 
 
 
